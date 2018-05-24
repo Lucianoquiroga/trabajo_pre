@@ -366,6 +366,11 @@ section {
     padding-left: 76px;
 }
 
+.pre {
+    font-size: 18px !important;
+    padding-left: 30px !important;
+}
+
 .logo span {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
