@@ -27,7 +27,7 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    /* APP_ROUTING */
   ],
   providers: [],
   bootstrap: [AppComponent]
