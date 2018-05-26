@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { APP_ROUTING } from './app.routes';
+/* import { APP_ROUTING } from './app.routes'; */
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { ElementsComponent } from './components/elements/elements.component';
@@ -27,7 +27,7 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     BrowserModule,
-    APP_ROUTING
+    /* APP_ROUTING */
   ],
   providers: [],
   bootstrap: [AppComponent]
