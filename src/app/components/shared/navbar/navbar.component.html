@@ -14,12 +14,12 @@
         <nav class="main_nav_container">
             <div class="main_nav">
                 <ul class="main_nav_list">
-                    <li class="main_nav_item"><a href="#">Inicio</a></li>
-                    <li class="main_nav_item"><a href="#">Nosotros</a></li>
-                    <li class="main_nav_item"><a href="courses.html">Cursos</a></li>
-                    <!-- <li class="main_nav_item"><a href="elements.html">elements</a></li> -->
-                    <li class="main_nav_item"><a href="news.html">Nuevo</a></li>
-                    <li class="main_nav_item"><a href="contact.html">Contacto</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['home']">Inicio</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['nosotros']">Nosotros</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['cursos']">Cursos</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['noticias']">Noticias</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['registro']">Registro</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['contacto']">Contacto</a></li>
                 </ul>
             </div>
         </nav>

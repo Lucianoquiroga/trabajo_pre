@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-/* import { APP_ROUTING } from './app.routes'; */
+import { APP_ROUTING } from './app.routes';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { CoursesComponent } from './components/courses/courses.component';
 import { NewsComponent } from './components/news/news.component';
@@ -27,7 +27,7 @@ import { InformationComponent } from './components/information/information.compo
   ],
   imports: [
     BrowserModule,
-    /* APP_ROUTING */
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]
