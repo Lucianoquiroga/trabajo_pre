@@ -3,31 +3,31 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-/* import { APP_ROUTING } from './app.routes'; */
+import { APP_ROUTING } from './app.routes';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { CoursesComponent } from './components/courses/courses.component';
-import { ElementsComponent } from './components/elements/elements.component';
 import { NewsComponent } from './components/news/news.component';
-import { TeachersComponent } from './components/teachers/teachers.component';
-import { NewPostComponent } from './components/new-post/new-post.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { RegisterComponent } from './components/register/register.component';
+import { InformationComponent } from './components/information/information.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactsComponent,
     CoursesComponent,
-    ElementsComponent,
     NewsComponent,
-    TeachersComponent,
-    NewPostComponent,
     NavbarComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent,
+    RegisterComponent,
+    InformationComponent
   ],
   imports: [
     BrowserModule,
-    /* APP_ROUTING */
+    APP_ROUTING
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,90 @@
-<p>
-  navbar works!
-</p>
+<header class="header d-flex flex-row">
+    <div class="header_content d-flex flex-row align-items-center">
+        <!-- Logo -->
+        <div class="logo_container">
+            <div class="logo">
+                <span class="pre">Preuniversitarios</span>
+                <br>
+                <img src="assets/images/logo.png" alt="">
+                <span>San Matias</span>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main_nav_container">
+            <div class="main_nav">
+                <ul class="main_nav_list">
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['home']">Inicio</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['nosotros']">Nosotros</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['cursos']">Cursos</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['noticias']">Noticias</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['registro']">Registro</a></li>
+                    <li class="main_nav_item" routerLinkActive="active"><a [routerLink]="['contacto']">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="header_side d-flex flex-row justify-content-center align-items-center">
+        <img src="assets/images/phone-call.svg" alt="">
+        <span>Tel: (0261) 4290080</span>
+    </div>
+
+    <!-- Hamburger -->
+    <div class="hamburger_container">
+        <i class="fas fa-bars trans_200"></i>
+    </div>
+
+</header>
+<div class="home">
+
+    <!-- Hero Slider -->
+    <div class="hero_slider_container">
+        <div class="hero_slider owl-carousel">
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(assets/images/slider_background.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut"><small>Preuniversitario</small><br><span>Instituto San Matias</span><br><small>Más de 20 años de experiencia</small></h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(assets/images/slider_background.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Inicie su <span>Educación</span> hoy!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(assets/images/slider_background.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Preuniversitarios para<br> todas las <span>Carreras</span> actuales!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Slide -->
+            <div class="hero_slide">
+                <div class="hero_slide_background" style="background-image:url(assets/images/slider_background.jpg)"></div>
+                <div class="hero_slide_container d-flex flex-column align-items-center justify-content-center">
+                    <div class="hero_slide_content text-center">
+                        <h1 data-animation-in="fadeInUp" data-animation-out="animate-out fadeOut">Un buen <span>Comienzo</span><br>garantiza el éxito!</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero_slider_left hero_slider_nav trans_200"><span class="trans_200">ant.</span></div>
+        <div class="hero_slider_right hero_slider_nav trans_200"><span class="trans_200">sig.</span></div>
+    </div>
+
+</div>
